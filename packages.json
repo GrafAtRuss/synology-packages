@@ -2,31 +2,31 @@
   "packages": [
     {
       "package": "MSSQLBackup",
-      "version": "1.24.3-0001",
+      "version": "1.24.4-0001",
       "dname": "MSSQL Backup",
       "desc": "Резервное копирование баз Microsoft SQL Server на NAS. Автор: Ермаков Алексей Сергеевич (ИП Ермаков А.С.)",
-      "changelog": "Пакет ставится на все архитектуры DSM, включая geminilakenk (DS425+).",
-      "link": "https://raw.githubusercontent.com/GrafAtRuss/synology-packages/main/spk/MSSQLBackup-1.24.3.spk",
-      "md5": "3901c8ee4c9e9b49842579454433e01e",
+      "changelog": "Обновление из Центра пакетов. Все архитектуры DSM, включая DS425+.",
+      "link": "https://cdn.jsdelivr.net/gh/GrafAtRuss/synology-packages@v1.24.4/spk/MSSQLBackup-1.24.4.spk",
+      "md5": "429253e4573ee4388c42359459d9d68a",
+      "sha256": "543041dc70493a031597f27f03b5e9dc467dd1966a3577bf211ae02aa8b2f3ce",
       "size": 15257600,
       "maintainer": "Ермаков Алексей Сергеевич",
       "maintainer_url": "https://ип-ермаков.рф",
       "distributor": "ИП Ермаков А.С.",
       "distributor_url": "https://ип-ермаков.рф",
       "startable": "yes",
-      "qinst": false,
+      "start": true,
+      "qinst": true,
       "qstart": true,
       "qupgrade": true,
-      "deppkgs": null,
-      "conflictpkgs": null,
       "snapshot": [],
       "thumbnail": [
-        "https://raw.githubusercontent.com/GrafAtRuss/synology-packages/main/icons/MSSQLBackup_72.png",
-        "https://raw.githubusercontent.com/GrafAtRuss/synology-packages/main/icons/MSSQLBackup_256.png"
+        "https://cdn.jsdelivr.net/gh/GrafAtRuss/synology-packages@v1.24.4/icons/MSSQLBackup_72.png",
+        "https://cdn.jsdelivr.net/gh/GrafAtRuss/synology-packages@v1.24.4/icons/MSSQLBackup_256.png"
       ],
       "thumbnail_retina": [
-        "https://raw.githubusercontent.com/GrafAtRuss/synology-packages/main/icons/MSSQLBackup_256.png",
-        "https://raw.githubusercontent.com/GrafAtRuss/synology-packages/main/icons/MSSQLBackup_256.png"
+        "https://cdn.jsdelivr.net/gh/GrafAtRuss/synology-packages@v1.24.4/icons/MSSQLBackup_256.png",
+        "https://cdn.jsdelivr.net/gh/GrafAtRuss/synology-packages@v1.24.4/icons/MSSQLBackup_256.png"
       ]
     }
   ]

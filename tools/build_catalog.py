@@ -79,7 +79,7 @@ def main():
         vendored = spk_dir / name
         vendored.write_bytes(dest.read_bytes())
         # Прямая отдача без переадресации GitHub Releases: DSM иначе сохраняет пустой ответ.
-        link = "https://raw.githubusercontent.com/GrafAtRuss/synology-packages/main/spk/" + name
+        link = "https://cdn.jsdelivr.net/gh/GrafAtRuss/synology-packages@main/spk/" + name
         packages.append({
             "package": pkg,
             "version": info.get("version") or tag.lstrip("v"),
