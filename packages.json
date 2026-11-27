@@ -2,13 +2,13 @@
   "packages": [
     {
       "package": "MSSQLBackup",
-      "version": "1.24.6-0001",
+      "version": "1.24.7-0001",
       "dname": "MSSQL Backup",
       "desc": "Резервное копирование баз Microsoft SQL Server на NAS. Автор: Ермаков Алексей Сергеевич (ИП Ермаков А.С.)",
-      "changelog": "Файл пакета больше не сжимается при скачивании. Иконка 72x72, как требует DSM.",
-      "link": "https://raw.githubusercontent.com/GrafAtRuss/synology-packages/v1.24.6/spk/MSSQLBackup-1.24.6.spk",
-      "md5": "8c696418f46fafaa72acdae015bdcbb9",
-      "sha256": "01d9501b38ac149b301b8b163132aa7bdaf77bf8bc3bdeedba88b1376bfcd9d6",
+      "changelog": "Убрана контрольная сумма из INFO: из-за неё DSM 7.4 отклонял файл.",
+      "link": "https://raw.githubusercontent.com/GrafAtRuss/synology-packages/v1.24.7/spk/MSSQLBackup-1.24.7.spk",
+      "md5": "432cd2c24b801ca655e3ba5fcd7a3fe2",
+      "sha256": "29e3c0c8ae3956fdf91ac5466517b9b0f9843e7a333ff945525ca3cb4c4256a3",
       "size": 15257600,
       "maintainer": "Ермаков Алексей Сергеевич",
       "maintainer_url": "https://ип-ермаков.рф",
@@ -21,12 +21,12 @@
       "qupgrade": true,
       "snapshot": [],
       "thumbnail": [
-        "https://cdn.jsdelivr.net/gh/GrafAtRuss/synology-packages@v1.24.6/icons/MSSQLBackup_72.png",
-        "https://cdn.jsdelivr.net/gh/GrafAtRuss/synology-packages@v1.24.6/icons/MSSQLBackup_256.png"
+        "https://cdn.jsdelivr.net/gh/GrafAtRuss/synology-packages@v1.24.7/icons/MSSQLBackup_72.png",
+        "https://cdn.jsdelivr.net/gh/GrafAtRuss/synology-packages@v1.24.7/icons/MSSQLBackup_256.png"
       ],
       "thumbnail_retina": [
-        "https://cdn.jsdelivr.net/gh/GrafAtRuss/synology-packages@v1.24.6/icons/MSSQLBackup_256.png",
-        "https://cdn.jsdelivr.net/gh/GrafAtRuss/synology-packages@v1.24.6/icons/MSSQLBackup_256.png"
+        "https://cdn.jsdelivr.net/gh/GrafAtRuss/synology-packages@v1.24.7/icons/MSSQLBackup_256.png",
+        "https://cdn.jsdelivr.net/gh/GrafAtRuss/synology-packages@v1.24.7/icons/MSSQLBackup_256.png"
       ]
     }
   ]
