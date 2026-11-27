@@ -74,7 +74,12 @@ def main():
             except Exception:
                 (ICONS / ("%s_72.png" % pkg)).write_bytes(icon256)
         base = "https://raw.githubusercontent.com/GrafAtRuss/synology-packages/main/icons"
-        link = "https://github.com/%s/releases/download/%s/%s" % (repo, tag, name)
+        spk_dir = ROOT / "spk"
+        spk_dir.mkdir(exist_ok=True)
+        vendored = spk_dir / name
+        vendored.write_bytes(dest.read_bytes())
+        # Прямая отдача без переадресации GitHub Releases: DSM иначе сохраняет пустой ответ.
+        link = "https://media.githubusercontent.com/media/GrafAtRuss/synology-packages/main/spk/" + name
         packages.append({
             "package": pkg,
             "version": info.get("version") or tag.lstrip("v"),

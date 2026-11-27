@@ -24,7 +24,7 @@ jobs:
         run: |
           git config user.name "Ермаков Алексей Сергеевич"
           git config user.email "info@ip-ermakov.ru"
-          git add packages.json icons
+          git add packages.json icons spk
           if git diff --cached --quiet; then
             echo "catalog unchanged"
           else
