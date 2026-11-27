@@ -2,12 +2,12 @@
   "packages": [
     {
       "package": "MSSQLBackup",
-      "version": "1.24.1-0001",
+      "version": "1.24.2-0001",
       "dname": "MSSQL Backup",
       "desc": "Резервное копирование баз Microsoft SQL Server на NAS. Автор: Ермаков Алексей Сергеевич (ИП Ермаков А.С.)",
-      "changelog": "Пакет отдаётся напрямую, без переадресации GitHub. DSM принимает обновление.",
-      "link": "https://raw.githubusercontent.com/GrafAtRuss/synology-packages/main/spk/MSSQLBackup-1.24.1.spk",
-      "md5": "262afdc9a6f37cb4c53d6f72307a4434",
+      "changelog": "Архив в формате, который принимает Центр пакетов DSM 7, архитектура geminilake и контрольная сумма.",
+      "link": "https://raw.githubusercontent.com/GrafAtRuss/synology-packages/main/spk/MSSQLBackup-1.24.2.spk",
+      "md5": "42dfacfa4683ec96de4d3d5fec0fef7d",
       "size": 15257600,
       "maintainer": "Ермаков Алексей Сергеевич",
       "maintainer_url": "https://ип-ермаков.рф",
