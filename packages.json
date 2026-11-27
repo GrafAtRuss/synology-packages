@@ -1,0 +1,33 @@
+{
+  "packages": [
+    {
+      "package": "MSSQLBackup",
+      "version": "1.24.0-0001",
+      "dname": "MSSQL Backup",
+      "desc": "Резервное копирование баз Microsoft SQL Server на NAS. Автор: Ермаков Алексей Сергеевич (ИП Ермаков А.С.)",
+      "changelog": "Расписание и ротация как в Hyper Backup, редактирование задачи, шкала выполнения, архивы на NAS.",
+      "link": "https://github.com/GrafAtRuss/synology-mssql-backup/releases/download/v1.24.0/MSSQLBackup-1.24.0.spk",
+      "md5": "5c9ea850069688988f4b4f09f689193a",
+      "size": 15257600,
+      "maintainer": "Ермаков Алексей Сергеевич",
+      "maintainer_url": "https://ип-ермаков.рф",
+      "distributor": "ИП Ермаков А.С.",
+      "distributor_url": "https://ип-ермаков.рф",
+      "startable": "yes",
+      "qinst": false,
+      "qstart": true,
+      "qupgrade": true,
+      "deppkgs": null,
+      "conflictpkgs": null,
+      "snapshot": [],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/GrafAtRuss/synology-packages/main/icons/MSSQLBackup_72.png",
+        "https://raw.githubusercontent.com/GrafAtRuss/synology-packages/main/icons/MSSQLBackup_256.png"
+      ],
+      "thumbnail_retina": [
+        "https://raw.githubusercontent.com/GrafAtRuss/synology-packages/main/icons/MSSQLBackup_256.png",
+        "https://raw.githubusercontent.com/GrafAtRuss/synology-packages/main/icons/MSSQLBackup_256.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+name: Update package catalog
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Rebuild packages.json from GitHub releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 tools/build_catalog.py
+      - name: Commit catalog
+        run: |
+          git config user.name "Ермаков Алексей Сергеевич"
+          git config user.email "info@ip-ermakov.ru"
+          git add packages.json icons
+          if git diff --cached --quiet; then
+            echo "catalog unchanged"
+          else
+            git commit -m "Обновить каталог пакетов"
+            git push
+          fi
